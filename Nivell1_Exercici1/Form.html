@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<!-- Crea un formulari HTML amb els camps que vulguis (almenys un nom o username). 
+El formulari ha de tenir com a action un document PHP. 
+El codi d’aquest document PHP haurà de mostrar els valors dels diferents camps del formulari mitjançant variables superglobals.
+  Enregistra a més, alguns d’aquests valors dins de variables de sessió. -->
+
+<html lang="ca">
+<head>
+  <meta charset="UTF-8">
+  <title>Formulari</title>
+</head>
+<body>
+  <form action="Result.php" method="post">
+
+      <label for="username">Username:</label>
+      <input type="text" id="username" name="username">
+      <label for="email">Email:</label>
+      <input type="text" id="email" name="email">
+
+    <button type="submit">Enviar</button>
+  </form>
+</body>
+</html>
