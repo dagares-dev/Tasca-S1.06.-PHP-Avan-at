@@ -11,7 +11,7 @@ $turtles = [
 ];
 
 echo "<h2>Nivell 1</h2>";
-echo "<h3>Exercici 2</h3>";
+echo "<h3>Exercici 3</h3>";
 
 foreach ($turtles as $turtle) {
     echo $turtle . "<br>";
